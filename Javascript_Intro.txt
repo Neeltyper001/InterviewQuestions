@@ -1,0 +1,10 @@
+JavaScript
+- functional oriented and client side
+- Build by Brendan Eich (earlier it was called Mocha)
+- To penetrate the market of Java Developer they named IT JAVASCRIPT 
+- Then changed to LiveScript (script meaning small programs)
+- OFFICIAL NAME ECMAScript
+
+About Javascript
+- Dynamically
+- Loosely typed Programming

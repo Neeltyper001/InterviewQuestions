@@ -1,0 +1,43 @@
+What is typeOf  in javascript
+- its a reserved operator
+- typeof 10+20 gives output 'number20'
+
+Do javascript have datatypes
+- No they won't have any datatypes, the data types are assigned at runtime or dynamically
+
+Javascript primitives data-types are Immutable 
+var x = 100
+var y = x;
+y+10 shows 110 
+but y shows 100 which depicts immutability
+
+Data types
+- undefined
+- number
+- string
+- boolean
+- bigInt typeOf bigInt is number (ES 2020 IN ES10)
+- null
+- symbol
+----------------------- number.MAX_SAFE_INTEGER------------------------------------
+
+Why arrays in js are object
+- object is combo of data + methods
+
+NULL IS JUST A VALUE THAT STATES IT DOESNT HAVE ANY ADDRESS OF AN OBJECT
+
+What is NaN in javascript
+ - it is basically an error value of a number . for eg "string" - 100 gives Nan
+
+------------------------- Number--------------------------------------
+methods of number: isNan() isFinite() 
+
+------------------------- String Interpolation ------------------------------
+where we are able to use back-ticks for proper formatting.
+
+------------------------ Numeric with boolean , boolean converted to number -------
+100 + true = 101
+
+-------------------------- Big Int -----------------------------
+var views = 1212423141234134n;
+views = BigInt("12123413")

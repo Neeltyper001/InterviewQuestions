@@ -1,0 +1,44 @@
+Undeclare vs Undefined
+- Undeclare : There is no variable
+- Undefined : There is variable but not assigned any value
+- Accidently global: for example g= 10
+- window is the global object
+
+Is everything is object in js?
+
+Null vs undefined
+- typeof Null is object , typeof undefined is undefined
+- Null states the object is no longer referenced but undefined states there is no variable
+
+== loose comparison operator (type conversion then compare)
+=== strict comparison operator (directly compare the types)
+
+10 + undefined gives NaN
+10 + null gives 0
+
+What is coercion?
+- In dynamic typed language when one type is converted into another implicity
+- For example 
+		String + number = String
+		Number + String = String
+		Number + null = number
+		Number + undefined = number
+		undefined + null = number
+		Number + boolean = number
+Consider this
+- var e = 100
+	e.toString() Why so ? we know that e is a primitive type
+
+To acces the object members...
+	- MemberOperator [] also known as associative array
+	- dot Operator .
+
+	What is the difference between two?
+	 -dot operator cannot access numeric keys means (if we have made numeric keys)
+	 -dot operator wont allow string keys having space between them
+	 - [] opeartor string keys numeric keys special keys dynamic keys
+
+Difference between
+- 'var a = 13' (declare and assigned) and 'a=13' (accidental global)
+
+Hoisting : Place at top
