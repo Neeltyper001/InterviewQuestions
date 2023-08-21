@@ -1,2 +1,2 @@
-# Questions
-This repo contains question answers
+# InterviewQuestions
+This repo contains some Interview based question answers.
