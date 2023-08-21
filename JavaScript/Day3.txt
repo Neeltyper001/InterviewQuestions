@@ -1,0 +1,17 @@
+Is everything object in javascript ?
+- No, everything is not object in javascript
+
+If primitives are not object then explain this
+a.toString()
+- at runtime this a is converted into its wrapper types
+- it get autobox at runtime,after that it turns into normal primitives.
+
+How many ways to create an object in JS?
+- object literal
+- var f = Object.create(null)
+- var e = new Object()
+- spread operator var obj3 = {...obj2}
+
+Spread Operator Vs Rest
+- when used to clone object or arrays it is called spread
+- when used with functions with n args, becomes rest
