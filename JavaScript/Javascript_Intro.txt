@@ -6,5 +6,5 @@ JavaScript
 - OFFICIAL NAME ECMAScript
 
 About Javascript
-- Dynamically
+- Dynamically typed language.
 - Loosely typed Programming
